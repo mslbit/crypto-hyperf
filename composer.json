@@ -3,7 +3,7 @@
     "description": "Hyperf adapter for Maiscraft Crypto - ConfigProvider and DI registration",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+
     "authors": [
         {
             "name": "MaisCraft Team",
@@ -15,7 +15,7 @@
         "hyperf/framework": "^3.1",
         "hyperf/di": "^3.1",
         "hyperf/command": "^3.1",
-        "maiscraft/crypto": "^1.0"
+        "maiscraft/crypto": "dev-main"
     },
     "autoload": {
         "psr-4": {
@@ -33,7 +33,7 @@
         "hash",
         "encrypt"
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "sort-packages": true
